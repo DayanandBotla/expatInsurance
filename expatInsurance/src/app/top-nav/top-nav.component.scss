@@ -1,0 +1,25 @@
+
+header{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+
+}
+.topNav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .topNav--links{
+        float: right;
+        a{
+            text-decoration: none;
+            color: #ddd;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 10px 20px;
+        }
+    }
+}

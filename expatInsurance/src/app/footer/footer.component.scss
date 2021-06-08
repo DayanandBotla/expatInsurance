@@ -1,0 +1,17 @@
+.footer{
+    *{font-size: 14px;}
+    background: var(--footerBgColor);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    a{
+        padding: 5px;
+        color: var(--footerLinkTextColor);
+        cursor: pointer;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    .footer--links{
+        margin-bottom: 10px;
+    }
+}
