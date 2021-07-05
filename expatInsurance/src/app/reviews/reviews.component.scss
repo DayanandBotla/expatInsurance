@@ -1,0 +1,85 @@
+.ourReviews{
+    background: var(--reviewsBgColor);
+    padding: 50px 0;
+
+    &__img,
+    &__wrap{
+        width: 50%;
+    }
+    h2{
+        color: var(--headLineTextColor);
+   
+    }
+
+    &__container{
+        display: flex;
+    }
+
+    &--list{
+        border-radius: 10px;
+        background: #FFFFFF;
+        font-size: 14px;
+        line-height: 1.6;
+
+        padding: 20px;
+        margin: 15px auto;
+        position: relative;
+        // &:before{
+        //     content: '“';
+        //     position: absolute;
+        //     left: 5px;
+        //     top: 0;
+        //     font-size: 100px;
+        //     line-height: 100px;
+        //     font-family: var(--headLinesFont);
+        //     color: rgba(#44bfff, .2);
+        // }
+        // p:first-child{padding-right: 30px;}
+
+        .reviewer{
+            text-align: right;
+            font-style: italic;
+            strong{
+                font-family: var(--headLinesFont);
+                font-style: normal;
+                color: var(--headLineTextColor);
+            }
+        }
+    }
+}
+
+
+
+
+.whyHealthInsurance{
+    padding: 50px 20px;
+    text-align: center;
+    h2{
+        color: var(--headLineTextColor);
+        margin-bottom: 20px;
+    }
+    .desc-text{
+     }
+
+    &__wrap{
+        display: flex;
+        margin: 30px auto 0;
+    }
+
+    &--list{
+        margin: 10px;
+        width: calc(100% /3);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-bottom: 5px solid var(--headLineTextColor);
+        border-radius: 10px;
+        padding: 20px;
+
+        img{max-width: 80px; max-height: 80px;}
+
+        h4{
+            margin: 20px auto;
+            font-size: 18px;
+            color: var(--headLineTextColor);
+        }
+    }
+}

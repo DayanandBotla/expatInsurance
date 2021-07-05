@@ -8,6 +8,7 @@ import { InsuranceProvidersComponent } from './insurance-providers/insurance-pro
 import { FeaturesComponent } from './features/features.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { FooterComponent } from './footer/footer.component';
+import { SwiperModule } from 'ngx-swiper-wrapper';
 
 @NgModule({
   declarations: [
@@ -20,9 +21,12 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  SwiperModule
+}

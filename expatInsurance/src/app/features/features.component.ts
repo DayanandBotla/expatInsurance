@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { SwiperConfigInterface } from 'ngx-swiper-wrapper';
+
 
 @Component({
   selector: 'app-features',
@@ -8,6 +10,18 @@ import { Component, OnInit } from '@angular/core';
 export class FeaturesComponent implements OnInit {
 
   constructor() { }
+
+  swiperFeatures: SwiperConfigInterface = {
+    slidesPerView: 3,
+    slidesPerGroup: 1,
+    freeMode: true, 
+    navigation: false,
+    resistanceRatio: 0,
+    loop: true, 
+    autoplay: {
+      delay: 2000
+    },
+  };
 
   ngOnInit() {
   }

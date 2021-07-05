@@ -1,9 +1,11 @@
 :root{
 --bodyFont: 'Open Sans', Arial, sans-serif;
---bodyTextColor: rgb(153, 153, 153);
+--bodyTextColor: #8395a7;
 --headLinesFont: 'Montserrat', Arial, sans-serif;
---footerBgColor: #ecf9ff;
+--footerBgColor: #f5fbff;
 --footerLinkTextColor: var(--bodyTextColor);
+--reviewsBgColor: #f5fbff;
+--headLineTextColor: #44bfff;
 }
 
 *, *:before, *:after {
@@ -21,7 +23,7 @@
 
   html{
       font-family: var(--bodyFont);
-      font-size: 14px;
+      font-size: 15px;
       color: var(--bodyTextColor);
   }
   h1, h2, h3, h4, h5, h6{
@@ -49,4 +51,8 @@
 
 .text-center{
     text-align: center;
+}
+p{
+  line-height: 1.6;
+
 }

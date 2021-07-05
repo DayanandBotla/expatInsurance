@@ -1,1 +1,8 @@
-<p>insurance-providers works!</p>
+<section class="container insuranceProviders">
+    <swiper class=" " [config]="swiperInsuranceProviders">
+        <div class="provider--logo swiper-slide" *ngFor="let providerImgs of providerImg">
+            <img src="../assets/providers/{{providerImgs}}.png" alt="providerImgs">
+        </div>
+
+    </swiper>
+</section>
