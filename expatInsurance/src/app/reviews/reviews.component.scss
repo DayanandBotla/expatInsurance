@@ -83,3 +83,25 @@
         }
     }
 }
+
+
+@media (min-width: 481px) and (max-width: 860px) and (orientation: landscape),
+ screen and  (max-width:767px) {
+
+    .ourReviews__container{
+        flex-direction: column;
+    }
+    .ourReviews__wrap,
+    .ourReviews__img{
+        width: 100%;
+    }
+    .whyHealthInsurance{
+
+    }
+    .whyHealthInsurance__wrap{
+        flex-direction: column;
+    }
+    .whyHealthInsurance--list{
+        width: 100%;
+    }
+ }

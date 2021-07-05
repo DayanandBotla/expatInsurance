@@ -25,6 +25,16 @@ export class InsuranceProvidersComponent implements OnInit {
     autoplay: {
       delay: 2000
     },
+    breakpoints: {
+      767:{
+        slidesPerView: 3,
+        slidesPerGroup: 1
+      },
+      480:{
+        slidesPerView: 2,
+        slidesPerGroup: 1
+      },
+    }
   };
   ngOnInit() {
   }

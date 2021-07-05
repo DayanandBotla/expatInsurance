@@ -21,6 +21,16 @@ export class FeaturesComponent implements OnInit {
     autoplay: {
       delay: 2000
     },
+    breakpoints: {
+      767:{
+        slidesPerView: 2,
+        slidesPerGroup: 1
+      },
+      480:{
+        slidesPerView: 1,
+        slidesPerGroup: 1
+      },
+    }
   };
 
   ngOnInit() {
